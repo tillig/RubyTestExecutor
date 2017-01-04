@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paraesthesia.Test.Ruby", "Paraesthesia.Test.Ruby\Paraesthesia.Test.Ruby.csproj", "{EA12F503-29E0-4F0E-B414-103E86E9E24E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paraesthesia.Test.Ruby.Test", "Paraesthesia.Test.Ruby.Test\Paraesthesia.Test.Ruby.Test.csproj", "{748CEE01-3D89-4A37-8E69-1EA20EC5DDAA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Paraesthesia.Test.Ruby.Installer", "Paraesthesia.Test.Ruby.Installer\Paraesthesia.Test.Ruby.Installer.vdproj", "{3B13C529-ED01-446D-9281-47220790BD32}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{EA12F503-29E0-4F0E-B414-103E86E9E24E}.Debug.ActiveCfg = Debug|.NET
+		{EA12F503-29E0-4F0E-B414-103E86E9E24E}.Debug.Build.0 = Debug|.NET
+		{EA12F503-29E0-4F0E-B414-103E86E9E24E}.Release.ActiveCfg = Release|.NET
+		{EA12F503-29E0-4F0E-B414-103E86E9E24E}.Release.Build.0 = Release|.NET
+		{748CEE01-3D89-4A37-8E69-1EA20EC5DDAA}.Debug.ActiveCfg = Debug|.NET
+		{748CEE01-3D89-4A37-8E69-1EA20EC5DDAA}.Debug.Build.0 = Debug|.NET
+		{748CEE01-3D89-4A37-8E69-1EA20EC5DDAA}.Release.ActiveCfg = Release|.NET
+		{748CEE01-3D89-4A37-8E69-1EA20EC5DDAA}.Release.Build.0 = Release|.NET
+		{3B13C529-ED01-446D-9281-47220790BD32}.Debug.ActiveCfg = Debug
+		{3B13C529-ED01-446D-9281-47220790BD32}.Release.ActiveCfg = Release
+		{3B13C529-ED01-446D-9281-47220790BD32}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
